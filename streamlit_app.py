@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Set your OpenAI API key here
-openai.api_key = "your_openai_api_key"
+openai.api_key = "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"
 
 # Define the report template as a function
 def generate_audit_report(control_name, control_objective, evidence_reviewed, findings, conclusion):
